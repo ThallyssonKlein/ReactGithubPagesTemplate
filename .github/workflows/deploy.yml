@@ -26,6 +26,8 @@ jobs:
     - name: Build page
       working-directory: ./site
       run: npm run build
+      env:
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
