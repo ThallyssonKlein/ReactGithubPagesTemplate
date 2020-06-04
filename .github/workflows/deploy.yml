@@ -20,6 +20,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install Packages
       working-directory: ./site
+      env:
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       run: npm install
     - name: Build page
       run: npm run build
