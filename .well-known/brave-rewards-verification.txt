@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: thallyssonklein.dev
+Token: 29fa6d9ada9d7cf43adb579f3c5c8c588feafe9cd79cf70451af2c77e5338d72
